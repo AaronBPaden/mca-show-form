@@ -1,0 +1,35 @@
+.header {
+	text-align: center;
+}
+
+.main {
+	margin: auto;
+	width: 80%;
+}
+
+.main > form {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 3px;
+	margin: 2rem auto;
+	padding: 1rem;
+	width: 50%;
+	border: 1px solid red;
+}
+
+.form-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 3px;
+}
+
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.show-card {
+	padding: 1rem;
+	border: 1px solid red;
+}

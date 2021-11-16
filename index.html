@@ -9,6 +9,36 @@
         <title>Title</title>
     </head>
     <body>
+        <header class="header jumbotron jumbotron-fluid">
+            <h1>TV Shows</h1>
+        </header>
+        <main class="main">
+            <form id="movieForm" class="movie-form" action="#link">
+                <div class="form-container">
+                    <input id="inputTitle" value="" type="text" name="inputTitle" placeholder="Title" required>
+                    <input id="inputGenre" value="" type="text" name="inputGenre" placeholder="Genre" required>
+                    <input id="inputPlatform" value="" type="text" name="inputPlatform" placeholder="Platform">
+                    <input id="inputChannel" value="" type="text" name="inputChannel" placeholder="Channel">
+                    <input id="inputSeasons" value="" type="text" name="inputSeasons" placeholder="Seasons">
+                    <input id="inputDirectors" value="" type="text" name="inputDirectors" placeholder="Directors" required>
+                    <input id="inputWriters" value="" type="text" name="inputWriters" placeholder="Writers" required>
+                    <input id="inputYearBegan" value="" type="text" name="inputYearBegan" placeholder="Year Began" required>
+                    <input id="inputYearEnded" value="" type="text" name="inputYearEnded" placeholder="Year Ended">
+                    <select name="ratingSelector" id="ratingSelector" required>
+                        <option value="">--</option>
+                        <option value="TV-Y">TV-Y</option>
+                        <option value="TV-Y7">TV-Y7</option>
+                        <option value="TV-G">TV-G</option>
+                        <option value="TV-PG">TV-PG</option>
+                        <option value="TV-14">TV-14</option>
+                        <option value="TV-MA">TV-MA</option>
+                    </select>
+                </div>
+                <button id="showButton" class="btn btn-primary submit-button">submit</button>
+            </form>
+            <section id="cardContainer" class="card-container">
+            </section>
+        </main>
         <script src="js/jquery-3.6.0.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
